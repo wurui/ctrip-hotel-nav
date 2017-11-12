@@ -14,120 +14,39 @@
         <icon>//oxm1.cc/img/app_default.png</icon>
     </p>
     <data>
-            <product>
-        <id>
-            car
-        </id>
-        <price>
-            8783.47
-        </price>
-        <orig_price>
-            0.08
-        </orig_price>
-        <img>
+        <product>
+            <id></id>
+            <price>600</price>
+            <orig_price>3000</orig_price>
+            <img>
+                <i>http://i.oxm1.cc/uploads/git/wurui/img/2a9g3n0oyTj9w9el0uRyovyAs31-750.jpg</i>
+            </img>
+            <title>杭州马可波罗滨湖假日酒店</title>
+            <tags>
+                <i>
+                    四星级
+                </i>
+            </tags>
+        </product>
+        <table-menu>
             <i>
-                //a.oxm1.cc/img/fox.jpg
-            </i>
-        </img>
-        <title>
-            nice laptop
-        </title>
-        <desc>
-            wallet
-        </desc>
-        <param>
-            <i>
-                <label>
-                    light-weight watch
-                </label>
-                <value>
-                    notebook
-                </value>
-            </i>
-        </param>
-        <tags>
-            <i>
-                light-weight watch
-            </i>
-        </tags>
-    </product>
-    <icon-menu>
-        <i>
-            <i>
-                <icon>
-                    //a.oxm1.cc/img/fox.jpg
-                </icon>
-                <title>
-                    nice watch
-                </title>
-                <href>
-                    //a.oxm1.cc/img/fox.jpg
-                </href>
-                <tip>
-                    wallet
-                </tip>
+                <icon>http://i.oxm1.cc/uploads/git/wurui/img/2a9g44xk8Tj9w8wo5kRx4nfAeoz-1129.png</icon>
+                <title>连锁酒店特惠</title>
+                <tag>汉庭如家大促销</tag>
+                <href></href>
             </i>
             <i>
-                <icon>
-                    //a.oxm1.cc/img/fox.jpg
-                </icon>
-                <title>
-                    laptop
-                </title>
-                <href>
-                    //a.oxm1.cc/img/fox.jpg
-                </href>
-                <tip>
-                    light-weight car
-                </tip>
-            </i>
-        </i>
-        <i>
-            <i>
-                <icon>
-                    //a.oxm1.cc/img/fox.jpg
-                </icon>
-                <title>
-                    tough notebook
-                </title>
-                <href>
-                    //a.oxm1.cc/img/fox.jpg
-                </href>
-                <tip>
-                    light-weight watch
-                </tip>
+                <icon>http://i.oxm1.cc/uploads/git/wurui/img/2a9g3p1t9Tj9w9cjwjR121aAcmy-1000.png</icon>
+                <title>团队房</title>
+                <tag>多间更优惠</tag>
+                <href></href>
             </i>
             <i>
-                <icon>
-                    //a.oxm1.cc/img/fox.jpg
-                </icon>
-                <title>
-                    light-weight car
-                </title>
-                <href>
-                    //a.oxm1.cc/img/fox.jpg
-                </href>
-                <tip>
-                    laptop
-                </tip>
+                <icon>http://i.oxm1.cc/uploads/git/wurui/img/2a9g3oqfoTj9w9cva4Rk3zvAdga-989.png</icon>
+                <title>热卖酒店</title>
+                <tag>人气优选</tag>
+                <href></href>
             </i>
-        </i>
-        <i>
-            <i>
-                <icon>
-                    //a.oxm1.cc/img/fox.jpg
-                </icon>
-                <title>
-                    good notebook
-                </title>
-                <href>
-                    //a.oxm1.cc/img/fox.jpg
-                </href>
-                <tip>
-                    notebook
-                </tip>
-            </i>
-        </i>
-    </icon-menu>
+        </table-menu>
     </data>
 </root>
