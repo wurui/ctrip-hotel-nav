@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="demo.xsl"?>
+<root>
+    <env>
+        <domain>local</domain>
+    </env>
+    <login>
+        <uid>git/wurui</uid>
+    </login>
+    <p>
+        <title>demo page</title>
+        <desc>this is deme page</desc>
+        <owner>openxsl</owner>
+        <icon>//oxm1.cc/img/app_default.png</icon>
+    </p>
+    <data>
+            <product>
+        <id>
+            car
+        </id>
+        <price>
+            8783.47
+        </price>
+        <orig_price>
+            0.08
+        </orig_price>
+        <img>
+            <i>
+                //a.oxm1.cc/img/fox.jpg
+            </i>
+        </img>
+        <title>
+            nice laptop
+        </title>
+        <desc>
+            wallet
+        </desc>
+        <param>
+            <i>
+                <label>
+                    light-weight watch
+                </label>
+                <value>
+                    notebook
+                </value>
+            </i>
+        </param>
+        <tags>
+            <i>
+                light-weight watch
+            </i>
+        </tags>
+    </product>
+    <icon-menu>
+        <i>
+            <i>
+                <icon>
+                    //a.oxm1.cc/img/fox.jpg
+                </icon>
+                <title>
+                    nice watch
+                </title>
+                <href>
+                    //a.oxm1.cc/img/fox.jpg
+                </href>
+                <tip>
+                    wallet
+                </tip>
+            </i>
+            <i>
+                <icon>
+                    //a.oxm1.cc/img/fox.jpg
+                </icon>
+                <title>
+                    laptop
+                </title>
+                <href>
+                    //a.oxm1.cc/img/fox.jpg
+                </href>
+                <tip>
+                    light-weight car
+                </tip>
+            </i>
+        </i>
+        <i>
+            <i>
+                <icon>
+                    //a.oxm1.cc/img/fox.jpg
+                </icon>
+                <title>
+                    tough notebook
+                </title>
+                <href>
+                    //a.oxm1.cc/img/fox.jpg
+                </href>
+                <tip>
+                    light-weight watch
+                </tip>
+            </i>
+            <i>
+                <icon>
+                    //a.oxm1.cc/img/fox.jpg
+                </icon>
+                <title>
+                    light-weight car
+                </title>
+                <href>
+                    //a.oxm1.cc/img/fox.jpg
+                </href>
+                <tip>
+                    laptop
+                </tip>
+            </i>
+        </i>
+        <i>
+            <i>
+                <icon>
+                    //a.oxm1.cc/img/fox.jpg
+                </icon>
+                <title>
+                    good notebook
+                </title>
+                <href>
+                    //a.oxm1.cc/img/fox.jpg
+                </href>
+                <tip>
+                    notebook
+                </tip>
+            </i>
+        </i>
+    </icon-menu>
+    </data>
+</root>
