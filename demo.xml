@@ -14,20 +14,22 @@
         <icon>//oxm1.cc/img/app_default.png</icon>
     </p>
     <data>
-        <product>
-            <id></id>
-            <price>600</price>
-            <orig_price>3000</orig_price>
-            <img>
-                <i>http://i.oxm1.cc/uploads/git/wurui/img/2a9g3n0oyTj9w9el0uRyovyAs31-750.jpg</i>
-            </img>
-            <title>杭州马可波罗滨湖假日酒店</title>
-            <tags>
-                <i>
-                    四星级
-                </i>
-            </tags>
-        </product>
+        <product-list>
+            <i>
+                <price>600</price>
+                <orig_price>3000</orig_price>
+                <img>
+                    http://i.oxm1.cc/uploads/git/wurui/img/2a9g3n0oyTj9w9el0uRyovyAs31-750.jpg
+                </img>
+                <title>杭州马可波罗滨湖假日酒店</title>
+                <tags>
+                    <i>
+                        四星级
+                    </i>
+                </tags>
+                <href>#sss</href>
+            </i>
+        </product-list>
         <table-menu>
             <i>
                 <icon>http://i.oxm1.cc/uploads/git/wurui/img/2a9g44xk8Tj9w8wo5kRx4nfAeoz-1129.png</icon>
