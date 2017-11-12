@@ -1,6 +1,6 @@
 {
   "name": "ctrip-hotel-nav",
   "version": "0.0.1",
-  "apiDependencies": ["product","table-menu"]
+  "apiDependencies": ["product-list","table-menu"]
 }
 
