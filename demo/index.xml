@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../demo.xsl"?>
+<root>
+    <env>
+        <domain>local</domain>
+    </env>
+    <login>
+        <uid>git/wurui</uid>
+    </login>
+    <p>
+        <title>ctrip-hotel-nav demo page</title>
+        <desc>this is deme page</desc>
+        <owner>openxsl</owner>
+        <icon>//oxm1.cc/img/app_default.png</icon>
+    </p>
+    <data>
+        <ui-sale>
+            <i>
+                <price>600</price>
+                <orig_price>3000</orig_price>
+                <img>
+                    http://i.oxm1.cc/uploads/git/wurui/img/2a9g3n0oyTj9w9el0uRyovyAs31-750.jpg
+                </img>
+                <title>杭州马可波罗滨湖假日酒店</title>
+                <slogan>
+                    四星级
+                </slogan>
+                <href>#sss</href>
+            </i>
+        </ui-sale>
+        <ui-entry>
+            <i>
+                <icon>http://i.oxm1.cc/uploads/git/wurui/img/2a9g44xk8Tj9w8wo5kRx4nfAeoz-1129.png</icon>
+                <title>连锁酒店特惠</title>
+                <subtitle>汉庭如家大促销</subtitle>
+                <href></href>
+            </i>
+            <i>
+                <icon>http://i.oxm1.cc/uploads/git/wurui/img/2a9g3p1t9Tj9w9cjwjR121aAcmy-1000.png</icon>
+                <title>团队房</title>
+                <subtitle>多间更优惠</subtitle>
+                <href></href>
+            </i>
+            <i>
+                <icon>http://i.oxm1.cc/uploads/git/wurui/img/2a9g3oqfoTj9w9cva4Rk3zvAdga-989.png</icon>
+                <title>热卖酒店</title>
+                <subtitle>人气优选</subtitle>
+                <href></href>
+            </i>
+        </ui-entry>
+    </data>
+</root>

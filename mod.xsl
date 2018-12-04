@@ -1,16 +1,11 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:oxm="https://www.openxsl.com">
     <xsl:template match="/root" name="wurui.ctrip-hotel-nav">
         <!-- className 'J_OXMod' required  -->
-        <xsl:param name="title">特价酒店</xsl:param>
-        <xsl:param name="more_title">更多特价</xsl:param>
-        <xsl:param name="more_link"></xsl:param>
+     
         <div class="J_OXMod oxmod-ctrip-hotel-nav" ox-mod="ctrip-hotel-nav">
-            <h3>
-                <a href="{$more_link}" class="bt-more"><xsl:value-of select="$more_title"/> &gt;</a>
-                <xsl:value-of select="$title"/>
-            </h3>
-            <xsl:variable name="hotel" select="data/product-list/i[1]"/>
-            <xsl:variable name="menus" select="data/table-menu/i"/>
+            
+            <xsl:variable name="hotel" select="data/ui-sale/i[1]"/>
+            <xsl:variable name="menus" select="data/ui-entry/i"/>
             <div class="menu">
 	            <table width="100%">
 	            	<tbody>
@@ -27,7 +22,7 @@
 					            		</nobr>
 					            		<br/>
 					            		<em class="tags">
-					            			<xsl:copy-of select="$hotel/tags/i"/>
+					            			<xsl:value-of select="$hotel/slogan"/>
 					            		</em>
 					            		<br/>
 					            		<span class="price">
@@ -48,7 +43,7 @@
 				            			<b><xsl:value-of select="$menus[1]/title"/></b>
 				            			<br/>
 				            			<em class="tag">
-				            				<xsl:value-of select="$menus[1]/tag"/>
+				            				<xsl:value-of select="$menus[1]/subtitle"/>
 				            			</em>
 			            			</span>
 			            			<img class="icon" src="{$menus[1]/icon}"/>
@@ -62,7 +57,7 @@
 				            			<b><xsl:value-of select="$menus[2]/title"/></b>
 				            			<br/>
 				            			<em class="tag">
-				            				<xsl:value-of select="$menus[2]/tag"/>
+				            				<xsl:value-of select="$menus[2]/subtitle"/>
 				            			</em>
 			            			</span>
 			            			<br/>
@@ -75,7 +70,7 @@
 				            			<b><xsl:value-of select="$menus[3]/title"/></b>
 				            			<br/>
 				            			<em class="tag">
-				            				<xsl:value-of select="$menus[3]/tag"/>
+				            				<xsl:value-of select="$menus[3]/subtitle"/>
 				            			</em>
 			            			</span>
 			            			<br/>
